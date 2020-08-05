@@ -1,14 +1,10 @@
-# Getting-and-Cleaning-Data
- Part 1 Plot the 30-day mortality rates for heart attack (outcome.R)
-        outcome = stores the data table
+
+# Getting and Cleaning Data Course Project
         
- Part 2 Finding the best hospital in a state (best.R)
-        out_dt = to store outcome data
-        chosen_state = to store the column name
-     
- Part 3 Ranking hospitals by outcome in a state (rankhospital.R)
-        col_indices = to store indices of the columns
-        
- Part 4 Ranking hospitals in all states (rankall.R)
-        rankall = function to rank all hospitals in all the states
+ 1. Merges the training and the test sets to create one data set; ignores the "Inertial Signals" folder for now
+ 2. Extracts only the measurements on the mean and standard deviation for each measurement.
+ 3. Uses descriptive activity names to name the activities in the data set
+ 4. Appropriately labels the data set with descriptive variable names.
+ 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+ 
         
